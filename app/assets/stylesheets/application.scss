@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+@import "banner";
+@import "foods";
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+  h1{
+    margin: 0;
+    padding: 0
+  }
+}
+
+
+
+
+
+
+.profiler-results{
+  display: none;
+}

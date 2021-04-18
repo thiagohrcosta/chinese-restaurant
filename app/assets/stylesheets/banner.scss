@@ -1,0 +1,39 @@
+
+.banner{
+  background: #FFF5EC;
+  height: 100vh;
+}
+
+.navbar-conten{
+  display: flex;
+  justify-content: space-between;
+
+  .right-navbar-content{
+    width: 30%;
+    height: 100vh;
+    background-color: #FE043C;
+  }
+
+  .left-navbar{
+    padding: 40px;
+  }
+
+  .right-navbar{
+    text-align: center;
+    padding: 40px;
+  }
+
+  .main-title{
+    font-weight: 900;
+    font-size: 80px;
+    opacity: 15%;
+  }
+
+  .subtitle{
+    font-weight: 700;
+    color: #2E266F;
+  }
+
+
+}
+
