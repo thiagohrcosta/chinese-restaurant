@@ -4,7 +4,8 @@
   height: 100vh;
 }
 
-.navbar-conten{
+.navbar-content{
+  position: relative;
   display: flex;
   justify-content: space-between;
 
@@ -33,6 +34,15 @@
     font-weight: 700;
     color: #2E266F;
   }
+
+  .img-banner-food{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 45%;
+    width: 500px;
+  }
+
+
 
 
 }
