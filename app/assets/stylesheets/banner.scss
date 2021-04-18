@@ -9,6 +9,11 @@
   display: flex;
   justify-content: space-between;
 
+  .logo{
+    font-weight: 700;
+    color: #FE043C;
+  }
+
   .right-navbar-content{
     width: 30%;
     height: 100vh;
@@ -20,8 +25,13 @@
   }
 
   .right-navbar{
+    color: #FFF5EC;
     text-align: center;
     padding: 40px;
+  }
+
+  .banner-content{
+    margin-top: 100px;
   }
 
   .main-title{
@@ -31,6 +41,8 @@
   }
 
   .subtitle{
+    width: 70%;
+    font-size: 32px;
     font-weight: 700;
     color: #2E266F;
   }
@@ -42,8 +54,23 @@
     width: 500px;
   }
 
+  .btn-menu{
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+    color: #FFF5EC;
+    padding: 5px 35px;
+    background-color: #FE043C;
 
+  }
 
 
 }
+
+.btn-find-on-map{
+    padding: 20px;
+    position: relative;
+    background-color: #FE043C;
+  }
+
 
