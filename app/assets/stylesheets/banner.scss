@@ -78,6 +78,33 @@
   margin-top: 40px;
 }
 .food-menu-text{
+  margin: 10px 0;
+  color: #2E266F;
   padding: 5px;
   border-left: 5px solid #FE043C;
+}
+
+.food-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 10px;
+}
+
+.food-box{
+  background-color: #E8E8E8;
+  margin: 10px 0;
+  border: 1px solid #E8E8E8;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.food-item-text{
+  font-weight: bold;
+  padding: 10px 10px 0;
+  text-align: center;
+}
+
+.img-food{
+  width: 100%;
 }
